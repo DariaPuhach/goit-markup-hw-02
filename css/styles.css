@@ -25,10 +25,8 @@ button {
 }
 
 .visually-hidden {
-    position: absolute;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -85,23 +83,71 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--c-background-light);
+    background-color:var(--c-brand)
     cursor: pointer;
 }
 .hero-button:hover, .hero-button:focus{
     background-color: #404BBF;}
 
-.advantages{
+.advantages-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455 ;
+}
+
+.team-section{
+    background-color: var(--c-primary-light);
+}
+.team-title-main{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--c-primary);
+}
+.team-list{
+    background-color: var(--c-background-light)
+}
+.team-people{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
 }
-.advantages-title{
+.team-text{
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.team-section{
-    background-color: var(--c-primary-light);
+
+.portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--c-primary);
+}
+
+.portfolio-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+}
+
+.portfolio-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }

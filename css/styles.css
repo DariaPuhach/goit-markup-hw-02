@@ -2,7 +2,6 @@
     --c-brand:#4D5AE5;;
     --c-primary: #2E2F42;
     --c-primary-light: #F4F4FD;
-    --c-background: #2E2F42;
     --c-background-light: #FFF;
 }
 
@@ -73,15 +72,14 @@ button {
     color: #404bbf;
 }
 .hero{
-    background-color: var(--c-background);
+    background-color:var(--c-primary);
 }
 .hero-text{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--c-background-light)
-}
+    color: var(--c-background-light);}
 .hero-button{
     color: var(--c-brand);
     font-weight: 500;
@@ -91,6 +89,19 @@ button {
     cursor: pointer;
 }
 .hero-button:hover, .hero-button:focus{
-    background-color: #404BBF
-}
+    background-color: #404BBF;}
 
+.advantages{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+}
+.advantages-title{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-section{
+    background-color: var(--c-primary-light);
+}

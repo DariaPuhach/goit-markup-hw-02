@@ -51,3 +51,26 @@ button {
 .accent{
     color: var(--c-primary);
 }
+
+.navigation{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+}
+
+.navigation:hover,.navigation:focus{
+    color: #404bbf;
+}
+
+.contact{
+    font-style: normal;
+}
+.contakt-nav{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.contakt-nav:hover,.contakt-nav:focus {
+    color: #404bbf;
+}

@@ -78,13 +78,16 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--c-background-light);}
+
 .hero-button{
-    color: var(--c-brand);
+    color: var(--c-background-light);
+    background-color: var(--c-brand);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color:var(--c-brand)
+    background-color:var(--c-brand);
     cursor: pointer;
+    
 }
 .hero-button:hover, .hero-button:focus{
     background-color: #404BBF;}
@@ -94,6 +97,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--c-primary);
 }
 
 .advantages-text{
@@ -114,9 +118,11 @@ button {
     text-transform: capitalize;
     color: var(--c-primary);
 }
+
 .team-list{
     background-color: var(--c-background-light)
 }
+
 .team-people{
     font-weight: 500;
     font-size: 20px;
@@ -150,4 +156,18 @@ button {
 .portfolio-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer{
+    background-color:var(--c-primary)
+}
+
+.accent-footer{
+    color: var(--c-primary-light);
+}
+
+.footer-text{
+    line-height: 1.5;
+    color: var(--c-primary-light);
+    letter-spacing: 0.02em
 }

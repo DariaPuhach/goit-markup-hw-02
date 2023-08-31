@@ -82,3 +82,15 @@ button {
     letter-spacing: 0.02em;
     color: var(--c-background-light)
 }
+.hero-button{
+    color: var(--c-brand);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--c-background-light);
+    cursor: pointer;
+}
+.hero-button:hover, .hero-button:focus{
+    background-color: #404BBF
+}
+
